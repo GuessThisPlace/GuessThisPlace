@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activities.GuessPickerActivity"
+    android:background="@drawable/background"
+    style="@style/MainTheme">
+
+    <TextView
+        android:id="@+id/guess_picker_title"
+        android:text="@string/guess_picker_title"
+        style="@style/MySubmissionsTextView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/new_button"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MySubmissionsButton"
+            android:text="@string/new_sort"/>
+        <Button
+            android:id="@+id/old_button"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MySubmissionsButton"
+            android:text="@string/old_sort"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            />
+        <Button
+            android:id="@+id/popular_button"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MySubmissionsButton"
+            android:text="@string/popular_sort"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/no_images_textview"
+        android:layout_gravity="center"
+        style="@style/NormalTextView"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>
+</ScrollView>

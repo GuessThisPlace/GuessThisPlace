@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/upload_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        />
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="hr.etfos.glabab.guessthisplace.classes.WorkaroundMapFragment"
+        android:layout_weight="3"/>
+    <ProgressBar
+        android:id="@+id/upload_photo_progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_weight="1"/>
+    <hr.etfos.glabab.guessthisplace.classes.AutoResizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/upload_photo_info_text"
+        android:text="@string/wait_for_gps"
+        style="@style/TitleTextView"
+        android:visibility="gone"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/button_capture"
+        android:text="@string/upload_photo_button_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_weight="1"
+        style="@style/Button"/>
+
+</LinearLayout>

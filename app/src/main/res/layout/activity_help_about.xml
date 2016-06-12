@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activities.MySubmissionsActivity"
+    style="@style/MainTheme">
+
+    <TextView
+        android:id="@+id/help_title"
+        android:text="@string/help_about_title"
+        style="@style/MySubmissionsTextView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_help"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MySubmissionsButton"
+            android:text="@string/help_button"/>
+        <Button
+            android:id="@+id/button_about"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MySubmissionsButton"
+            android:text="@string/about_button"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/help_about_textview1"
+        android:layout_gravity="center"
+        style="@style/HelpAboutTextView"/>
+    <TextView
+        android:id="@+id/help_about_textview2"
+        android:layout_gravity="center"
+        style="@style/HelpAboutTextView"/>
+    <TextView
+        android:id="@+id/help_about_textview3"
+        android:layout_gravity="center"
+        style="@style/HelpAboutTextView"/>
+    <TextView
+        android:id="@+id/help_about_textview4"
+        android:layout_gravity="center"
+        style="@style/HelpAboutTextView"/>
+
+</LinearLayout>
+</ScrollView>

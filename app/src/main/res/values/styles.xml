@@ -1,0 +1,91 @@
+<resources>
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:button">@style/Button</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TitleTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/title_padding</item>
+        <item name="android:paddingBottom">@dimen/title_padding</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin</item>
+    </style>
+
+    <style name="MySubmissionsTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/title_padding</item>
+        <item name="android:paddingBottom">@dimen/title_padding</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="MySubmissionsButton" parent="android:Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/submissions_button_text_size</item>
+        <item name="android:padding">@dimen/button_padding</item>
+    </style>
+
+    <style name="NormalTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:background">@color/full_transparent</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/title_padding</item>
+        <item name="android:paddingBottom">@dimen/title_padding</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin</item>
+    </style>
+
+    <style name="HelpAboutTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:background">@color/full_transparent</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/title_padding</item>
+    </style>
+
+    <style name="HighScoreTextView" parent="android:Widget.TextView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:background">@color/full_transparent</item>
+        <item name="android:textSize">@dimen/highscore_text_size</item>
+        <item name="android:paddingTop">@dimen/title_padding</item>
+        <item name="android:paddingBottom">@dimen/title_padding</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+
+    <style name="RecycleImage">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/image_padding</item>
+        <item name="android:layout_margin">@dimen/image_margin</item>
+        <item name="android:background">@color/full_transparent</item>
+    </style>
+</resources>

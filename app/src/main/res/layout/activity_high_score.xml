@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.HighScoreActivity"
+    style="@style/MainTheme"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:id="@+id/high_score_linear">
+
+    <TextView
+        android:id="@+id/high_score_title"
+        android:text="@string/high_score_title"
+        style="@style/TitleTextView"/>
+
+    <TextView
+        android:id="@+id/high_score_status"
+        style="@style/NormalTextView" />
+
+    <ListView
+        android:id="@+id/high_score_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryBackground">#409040</color>
+    <color name="secondaryBackground">#052E05</color>
+    <color name="primaryButton">#2E6E2E</color>
+    <color name="primaryText">#FFFFFF</color>
+    <color name="transparent">#40000000</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="gold">#DAA520</color>
+    <color name="highlight_high_score">#00693E</color>
+</resources>

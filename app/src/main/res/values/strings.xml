@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">GuessThisPlace</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="guess">Take a new guess</string>
+    <string name="my_guess_this_place">My GuessThisPlace</string>
+    <string name="high_score">High Score</string>
+    <string name="photo_preview">Preview of last taken photo</string>
+    <string name="photo_picker">Photo Picker</string>
+    <string name="back_button">Back</string>
+    <string name="logout">Log Out</string>
+    <string name="change_password">Change Password</string>
+    <string name="help_about"><![CDATA[Help & About]]></string>
+    <string name="guess_picker_title">Pick a photo</string>
+    <string name="take_photo_activity">Take a new photo</string>
+    <string name="high_score_activity">High Score</string>
+    <string name="help_about_activity"><![CDATA[Help & About]]></string>
+    <string name="single_guess_activity">Take a guess</string>
+    <string name="single_guess_title">Take a guess</string>
+    <string name="guess_button">Guess</string>
+    <string name="my_guess_this_place_title">\'s Guess This Place</string>
+    <string name="my_submissions">My Submissions</string>
+    <string name="my_guesses">My Previous Guesses</string>
+    <string name="my_submissions_title">My Submissions</string>
+    <string name="my_guesses_title">My Guesses</string>
+    <string name="help_about_title"><![CDATA[Help & About]]></string>
+    <string name="high_score_title">High Score</string>
+    <string name="take_photo_title">Take Photo for Submission</string>
+
+    <string name="google_app_id">597350480677</string>
+
+    <string name="marker_title">Your Location</string>
+    <string name="error_getting_image">Error: There is a problem loading this image</string>
+
+
+    <string name="upload_photo_title">Upload Photo</string>
+    <string name="take_photo_button_title">Capture</string>
+    <string name="upload_photo_button_title">Upload</string>
+    <string name="correct_position">Correct position</string>
+    <string name="add_marker_please">Add marker before guessing!</string>
+    <string name="post_guess_message_high">Excellent guess! See map above for correct location. Your score:</string>
+    <string name="post_guess_message_medium">Nice guess! See map above for correct location. Your score:</string>
+    <string name="post_guess_message_low">I guess you have guessed something! See map above for correct location. Your score:</string>
+    <string name="post_guess_message_zero">Ouch! Better guess next time! See map above for correct location. Your score:</string>
+    <string name="no_images_to_guess">No images to guess. Check back later.</string>
+    <string name="no_images_submitted">No images submitted.</string>
+    <string name="no_images_guessed">You didn\'t make any guesses.</string>
+    <string name="loading">GuessThisPlace</string>
+    <string name="no_high_score">No entries.</string>
+    <string name="high_score_position">Rank</string>
+    <string name="high_score_name">Name</string>
+    <string name="high_score_score">Score (Guesses)</string>
+
+    <string name="invalid_cookie">INVALID_COOKIE</string>
+    <string name="guess_exists">GUESS_EXISTS</string>
+    <string name="invalid_code">INVALID_CODE</string>
+    <string name="empty">EMPTY</string>
+    <string name="quota_used">QUOTA_USED</string>
+    <string name="quota_ok">QUOTA_OK</string>
+    <string name="upload_ok">UPLOAD_OK</string>
+    <string name="login_not_ok">LOGIN_NOT_OK</string>
+    <string name="valid_cookie">VALID_COOKIE</string>
+
+    <string name="domain">http://www.etfos.unios.hr/~d2babic/</string>
+    <string name="your_score">Your score:</string>
+    <string name="username_exists">USERNAME_EXISTS</string>
+    <string name="approved_submissions">Approved</string>
+    <string name="pending_submissions">Pending</string>
+    <string name="denied_submissions">Denied</string>
+
+    <string name="denied_bad_image">Image is bad (blurry, out of focus, too dark or else).</string>
+    <string name="denied_unrecognizable">Image of location is not distinct enough.</string>
+    <string name="denied_similar_image_exists">Similar image of this location already exists.</string>
+    <string name="enter_current_password">Enter your current password.</string>
+    <string name="reenter_new_password">New passwords do not match. Please re-enter them.</string>
+    <string name="password_minimal_length">Password should be at least 6 characters long.</string>
+    <string name="password_not_ok">PASSWORD_NOT_OK</string>
+    <string name="password_changed">Password successfuly changed.</string>
+    <string name="password_current_password_wrong">Your current password is not correct. Try again.</string>
+    <string name="password_change_try_again_later">Cannot change password. Try again later.</string>
+    <string name="unknown_error">UNKNOWN_ERROR</string>
+    <string name="username_exists_toast">Username already exists.</string>
+    <string name="unknown_error_toast">Unknown error.</string>
+    <string name="login_not_ok_toast">Invalid username or password.</string>
+    <string name="unable_to_connect_toast">Unable to connect to server.</string>
+    <string name="image_upload_failed">We couldn\'t upload your image. Please try again.</string>
+    <string name="submission_successful">Your submission has been successfully uploaded</string>
+    <string name="cloudinary_preset">ynlmlqke</string>
+    <string name="image_save_fail">Your image couldn\'t have been saved. Please try again.</string>
+    <string name="free_memory">Sorry, we\'re unable to save your photo! Please free some memory before retrying!</string>
+    <string name="location_not_found">GPS Location not found. Please wait...</string>
+    <string name="enter_valid_user_pass">Please enter a valid username and password!</string>
+    <string name="password_maximal_length">Passwords can be 20 characters long at most!</string>
+    <string name="username_maximal_length">The maximum length of username can be 20 characters!</string>
+    <string name="gps_disable_dialog">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="go_to_settings_gps">Go to Settings To Enable GPS</string>
+    <string name="cancel">Cancel</string>
+    <string name="quota_used_message">Too many pictures were taken today on this account.</string>
+    <string name="server_unreachable">Server is unreachable. Please try again later.</string>
+    <string name="no_camera_toast">You cannot take any phots as you have no camera!</string>
+    <string name="gps_disabled">GPS is disabled on your device.</string>
+    <string name="no_pending_images">No images pending for approval.</string>
+    <string name="no_denied_images">No images have been denied.</string>
+    <string name="no_approved_images">No images have been approved.</string>
+    <string name="help_1">GuessThisPlace is game of guessing and submitting images of various geographic locations.
+        Your location is needed only for submitting images.</string>
+    <string name="help_2">You can guess location of any image available under Take a new guess (Pick a photo).
+    Retaking a guess for single image is not possible.</string>
+    <string name="help_3">In order for your submission to be visible to other players, it needs to be approved.
+        Submissions of bad images (blurry, out of focus, bad contrast or location is not distinct enough) will be denied and you can see the reason of denial under my submissions.
+        </string>
+    <string name="help_4">Please keep your password safe. You can always change your existing password, but there is no way to retrieve it.</string>
+    <string name="about_1">This application was developed for the participation in IEEEmadC by following students:</string>
+    <string name="about_2">Danijel Babić</string>
+    <string name="about_3">Ivan Glavota</string>
+    <string name="new_sort">New</string>
+    <string name="old_sort">Old</string>
+    <string name="popular_sort">Popular</string>
+    <string name="help_button">Help</string>
+    <string name="about_button">About</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="no_guesses_your_image">There are no guesses for this image yet!</string>
+    <string name="current_password">Current password.</string>
+    <string name="new_password">New password</string>
+    <string name="your_new_password">Enter your new password.</string>
+    <string name="new_password_again">New password</string>
+    <string name="re_enter_new_password">Enter your new password again.</string>
+    <string name="wait_for_gps">Please wait for the GPS location!</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Your username</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Your password</string>
+    <string name="unable_take_photo">You are unable to take a photo, sorry.</string>
+    <string name="location_mismatch">Coordinates of image do not match with its real location.</string>
+</resources>

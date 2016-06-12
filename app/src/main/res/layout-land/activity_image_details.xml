@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+        <ImageView
+            android:id="@+id/submitted_image"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/map"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:name="hr.etfos.glabab.guessthisplace.classes.WorkaroundMapFragment"/>
+    </LinearLayout>
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/no_guesses_textview"
+        android:layout_gravity="center"
+        style="@style/NormalTextView"
+        android:visibility="gone" />
+</LinearLayout>

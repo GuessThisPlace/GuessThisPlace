@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".activities.MyGuessThisPlaceActivity"
+    android:background="@drawable/background"
+    style="@style/MainTheme"
+    >
+
+    <TextView
+        android:id="@+id/main_title"
+        android:text="@string/my_guess_this_place_title"
+        style="@style/TitleTextView"/>
+
+
+    <Button
+        android:id="@+id/my_guesses_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/main_title"
+        style="@style/Button"
+        android:text="@string/my_guesses"/>
+
+    <Button
+        android:id="@+id/my_submissions_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/my_guesses_button"
+        style="@style/Button"
+        android:text="@string/my_submissions"/>
+
+    <Button
+        android:id="@+id/my_change_password_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/my_submissions_button"
+        style="@style/Button"
+        android:text="@string/change_password"/>
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/my_change_password_button"
+        style="@style/Button"
+        android:text="@string/logout"/>
+
+</RelativeLayout>
+</ScrollView>

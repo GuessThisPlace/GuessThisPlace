@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/sv_image_details">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/submitted_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:name="hr.etfos.glabab.guessthisplace.classes.WorkaroundMapFragment"/>
+        <!--android:name="com.google.android.gms.maps.MapFragment"/>-->
+    <TextView
+        android:id="@+id/no_guesses_textview"
+        android:layout_gravity="center"
+        style="@style/NormalTextView"
+        android:visibility="gone"/>
+
+</LinearLayout>
+</ScrollView>
